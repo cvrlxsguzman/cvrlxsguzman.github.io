@@ -1,0 +1,99 @@
+/* html */
+html {
+    background-image: url(images/20181011_000049.jpg);
+    background-size: 100% auto;
+    margin: auto;
+    max-width: 1600px;
+}
+
+/* The navigation bar */
+.topback {
+    background-image: url(images/topback.png);
+    background-size: 100% auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(13, 23, 49,0.7);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 10; /* Position the navbar at the top of the page */
+  width: 90%; /* Full width */
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 1200px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navname  {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+    margin-left: 40px;
+    font-size: 24px;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top:; /* Add a top margin to avoid content overlay */
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: ;
+  color: white;
+  font-size: 30px;
+    width:
+}
+
+
+/* main */
+
+main {
+    background-image: url(images/whiteback.jpg);
+}
+
+.about {
+    color: black;
+    background-image: url(images/whiteback.jpg);
+    background-size: 100% auto;
+    text-align: center;
+    
+    margin-top: -20px;
+    padding: 30px;
+    padding-bottom: 60px;
+    
+}
+
+.column {
+    width: 50%;
+    padding: 20px
+}
+
+.portfolio {
+    text-align: center;
+    padding: 30px
+}
+
+/* footer */
+footer {
+    color: white;
+    text-align: center;
+}
